@@ -102,21 +102,21 @@ class MainActivity : ComponentActivity() {
                 Text(text = "Conteúdo da mensagem")
             }
         }
+    }
 
-        @Preview(showBackground = true)
-        @Composable
-        fun PreviewFuncaoInicial() {
-            FundamentosJetpackComposeTheme {
-                Inicial()
-            }
+    @Preview(showBackground = true)
+    @Composable
+    fun PreviewFuncaoInicial() {
+        FundamentosJetpackComposeTheme {
+            Inicial()
         }
+    }
 
-        @Preview(showBackground = true)
-        @Composable
-        fun PreviewNotificationBage() {
-            FundamentosJetpackComposeTheme {
-                NotificationBage()
-            }
+    @Preview(showBackground = true)
+    @Composable
+    fun PreviewNotificationBage() {
+        FundamentosJetpackComposeTheme {
+            NotificationBage()
         }
     }
 }
